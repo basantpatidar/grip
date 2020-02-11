@@ -1,4 +1,4 @@
-package gripOne;
+package com.grip.one;
 
 public class VipCustomer {
 	
@@ -6,14 +6,18 @@ public class VipCustomer {
 	private String email;
 	
 	VipCustomer(){
-		VipCustomer();
-		
+		this(5);
 	}
-	VipCustomer(){
+	VipCustomer(int one){
+		this(one, 2);
 			
 		}	
-	VipCustomer(){
-		
+	VipCustomer(int one, int two){
+		int three = one + two;
+		System.out.println(three);
 	}
+	
+	
+	
 
 }
