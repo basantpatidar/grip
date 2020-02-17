@@ -1,9 +1,12 @@
 package com.grip.two;
 
 public class Vehicle {
+	@SuppressWarnings("unused")
 	private String name;
+	@SuppressWarnings("unused")
 	private String size;
 	
+	@SuppressWarnings("unused")
 	private int currentVelocity;
 	private int currentDirection;
 	
