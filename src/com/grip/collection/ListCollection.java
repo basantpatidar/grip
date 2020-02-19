@@ -14,8 +14,13 @@ public class ListCollection {
 		value.add(40);
 		value.add(2,30);
 		
-		for(int i = 0; i < value.size(); i++) {
-			System.out.println(value.get(i));
+//		for(int i = 0; i < value.size(); i++) {
+//			System.out.println(value.get(i));
+//		}
+		
+		for (Object o : value) {
+			System.out.println(o);
 		}
+		
 	}
 }
