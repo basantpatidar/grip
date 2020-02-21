@@ -1,4 +1,4 @@
-package gripOne;
+package com.grip.one;
 
 public class First {
 

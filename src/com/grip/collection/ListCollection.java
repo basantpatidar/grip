@@ -18,8 +18,11 @@ public class ListCollection {
 //			System.out.println(value.get(i));
 //		}
 		
+		System.out.println(value.isEmpty());
+		
 		for (Object o : value) {
 			System.out.println(o);
+			
 		}
 		
 	}
