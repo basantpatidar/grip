@@ -30,6 +30,10 @@ class B extends A{
 	
 }
 
+abstract class D{
+	abstract void age(int age);
+}
+
 
 public class C extends B{
 	public C () {
