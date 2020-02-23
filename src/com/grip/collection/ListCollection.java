@@ -16,6 +16,7 @@ public class ListCollection {
 		value.add(2,30);
 		
 		Collections.reverse(value);
+		Collections.shuffle(value);
 		
 		
 //		List 
