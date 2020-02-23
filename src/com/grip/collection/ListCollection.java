@@ -8,7 +8,7 @@ import java.util.List;
 public class ListCollection {
 
 	public static void main(String args[]) {
-		List value = new ArrayList();
+		List<Integer> value = new ArrayList<>();
 		
 		value.add(10);
 		value.add(20);
@@ -17,13 +17,16 @@ public class ListCollection {
 		
 		Collections.reverse(value);
 		
+		
+//		List 
+		
 //		for(int i = 0; i < value.size(); i++) {
 //			System.out.println(value.get(i));
 //		}
 		
 		System.out.println(value.isEmpty());
 		
-		for (Object o : value) {
+		for (Integer o : value) {
 			System.out.println(o);
 			
 		}
