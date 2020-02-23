@@ -1,6 +1,7 @@
 package com.grip.collection;
 
 import java.util.Collection;
+import java.util.Collections;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +14,8 @@ public class ListCollection {
 		value.add(20);
 		value.add(40);
 		value.add(2,30);
+		
+		Collections.reverse(value);
 		
 //		for(int i = 0; i < value.size(); i++) {
 //			System.out.println(value.get(i));
