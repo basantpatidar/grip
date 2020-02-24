@@ -14,6 +14,7 @@ public class ListCollection {
 		value.add(20);
 		value.add(40);
 		value.add(2,30);
+		value.remove(2);
 		
 		Collections.reverse(value);
 		Collections.shuffle(value);
