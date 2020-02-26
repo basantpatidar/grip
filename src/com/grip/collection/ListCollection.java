@@ -18,7 +18,19 @@ public class ListCollection {
 		
 		Collections.reverse(value);
 		Collections.shuffle(value);
+//		Collections.sort(value);
 		
+		
+		List <String> names = new ArrayList<>();
+		
+		names.add("abc");
+		names.add("skjfd");
+		names.add("xyz");
+		Collections.sort(names);
+		
+		for(String i : names) {
+		System.out.println(i);
+		}
 		
 //		List 
 		
