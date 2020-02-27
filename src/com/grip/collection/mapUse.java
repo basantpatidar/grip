@@ -14,6 +14,13 @@ public class mapUse {
 		map.put(03, "Python");
 		map.put(04, "Php");
 		
+		System.out.println(map.containsKey(2));
+		System.out.println(map.containsValue("Java"));
+		
+//		map.equals()
+		map.clear();
+		
+		
 		Set<Integer> keys = map.keySet();
 		
 		for(Integer key : keys) {
