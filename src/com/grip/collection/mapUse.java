@@ -3,6 +3,7 @@ package com.grip.collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+import java.util.logging.Logger;
 
 public class mapUse {
 
@@ -22,8 +23,8 @@ public class mapUse {
 		
 		
 		System.out.println(map.equals(mp));
-		
-		
+		map.clear();
+//		Logger.getLogger(map.isEmpty());
 		
 		Set<Integer> keys = map.keySet();
 		
