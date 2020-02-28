@@ -22,7 +22,7 @@ public class mapUse {
 		
 		
 		System.out.println(map.equals(mp));
-		map.clear();
+		
 		
 		
 		Set<Integer> keys = map.keySet();
