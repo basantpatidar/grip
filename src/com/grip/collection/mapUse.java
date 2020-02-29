@@ -1,5 +1,6 @@
 package com.grip.collection;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -23,10 +24,14 @@ public class mapUse {
 		
 		
 		System.out.println(map.equals(mp));
-		map.clear();
+//		map.clear();
 		Logger.getLogger("How to pass Boolean?");
 		
 		Set<Integer> keys = map.keySet();
+		Collection<String> val = map.values();
+		
+		System.out.println(keys);
+		System.out.println(val);
 		
 		for(Integer key : keys) {
 			System.out.println(map.get(key));
