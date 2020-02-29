@@ -24,7 +24,7 @@ public class mapUse {
 		
 		System.out.println(map.equals(mp));
 		map.clear();
-//		Logger.getLogger(map.isEmpty());
+		Logger.getLogger("How to pass Boolean?");
 		
 		Set<Integer> keys = map.keySet();
 		
