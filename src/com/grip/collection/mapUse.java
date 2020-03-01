@@ -22,9 +22,11 @@ public class mapUse {
 		System.out.println(map.containsKey(2));
 		System.out.println(map.containsValue("Java"));
 		
+		boolean isAvailable = map.containsKey(2);
+		
 		
 		System.out.println(map.equals(mp));
-		map.clear();
+//		map.clear();
 //		Logger.getLogger("How to pass Boolean?");
 		
 		Set<Integer> keys = map.keySet();
