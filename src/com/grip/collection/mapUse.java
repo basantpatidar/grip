@@ -24,8 +24,8 @@ public class mapUse {
 		
 		
 		System.out.println(map.equals(mp));
-//		map.clear();
-		Logger.getLogger("How to pass Boolean?");
+		map.clear();
+//		Logger.getLogger("How to pass Boolean?");
 		
 		Set<Integer> keys = map.keySet();
 		Collection<String> val = map.values();
