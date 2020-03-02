@@ -19,10 +19,10 @@ public class mapUse {
 		
 		mp.put(01, "React");
 		
-		System.out.println(map.containsKey(2));
-		System.out.println(map.containsValue("Java"));
+//		System.out.println(map.containsKey(2));
+//		System.out.println(map.containsValue("Java"));
 		
-		boolean isAvailable = map.containsKey(2);
+//		boolean isAvailable = map.containsKey(2);
 		
 		
 		System.out.println(map.equals(mp));
