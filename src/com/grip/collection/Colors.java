@@ -8,6 +8,6 @@ public class Colors {
 		
 		lt.add("Blue");
 		lt.add("green");
-		lt.add("red);
+		lt.add("red");
 	}
 }
