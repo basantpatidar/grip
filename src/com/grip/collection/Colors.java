@@ -9,5 +9,11 @@ public class Colors {
 		lt.add("Blue");
 		lt.add("green");
 		lt.add("red");
+		
+		StringBuilder ex = new StringBuilder();
+		ex.append("This ");
+		ex.append("is ");
+		ex.append("append.");
+		System.out.println(ex);
 	}
 }
