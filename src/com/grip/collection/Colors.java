@@ -10,10 +10,16 @@ public class Colors {
 		lt.add("green");
 		lt.add("red");
 		
+		for(String i : lt) {
+			System.out.println(i);
+		}
+		
 		StringBuilder ex = new StringBuilder();
 		ex.append("This ");
 		ex.append("is ");
 		ex.append("append.");
 		System.out.println(ex);
+		
+	
 	}
 }
