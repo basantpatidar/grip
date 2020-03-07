@@ -1,5 +1,6 @@
 package com.grip.collection;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Colors {
 
@@ -12,14 +13,12 @@ public class Colors {
 		
 		for(String i : lt) {
 			System.out.println(i);
-		}
+			}
 		
 		StringBuilder ex = new StringBuilder();
 		ex.append("This ");
 		ex.append("is ");
 		ex.append("append.");
 		System.out.println(ex);
-		
-	
-	}
+		}
 }
