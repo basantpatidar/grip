@@ -14,6 +14,7 @@ public class ArrayListCollection {
 		ArrayListCollection AC = new ArrayListCollection();
 		System.out.println(AC.replaceElement());
 		System.out.println(AC.removeSpecificElement());
+		System.out.println(AC.searchElement("3"));
 		
 	}
 	
@@ -34,5 +35,12 @@ public class ArrayListCollection {
 		lt.add("6");
 		lt.remove(3);
 		return lt;
+	}
+	
+	public Boolean searchElement(String i) {
+		List <String> lt = new ArrayList<>();
+		lt = Arrays.asList("1","2","5","3","4");
+		boolean hasElement = lt.contains(i);
+		return hasElement;
 	}
 }
