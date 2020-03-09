@@ -2,6 +2,8 @@ package com.grip.collection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class ArrayListCollection {
@@ -15,6 +17,7 @@ public class ArrayListCollection {
 		System.out.println(AC.replaceElement());
 		System.out.println(AC.removeSpecificElement());
 		System.out.println(AC.searchElement("3"));
+		System.out.println(AC.sortList());
 		
 	}
 	
@@ -43,4 +46,15 @@ public class ArrayListCollection {
 		boolean hasElement = lt.contains(i);
 		return hasElement;
 	}
+	
+	public List sortList() {
+		List <Integer> lt = new ArrayList<>();
+		lt = Arrays.asList(1,4,2,3,5);
+//		lt.sort(Comparator.naturalOrder());
+		Collections.sort(lt);
+		return lt;
+	}
+	
+	
+	
 }
