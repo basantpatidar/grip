@@ -26,6 +26,9 @@ public class ArrayListCollection {
 		System.out.println(AC.sortList());
 		System.out.println(AC.copyList());
 		System.out.println(AC.shuffleList());
+		System.out.println(AC.extractList());
+		System.out.println(AC.compareList(l1, l2));
+		System.out.println(AC.swapElement(l1));
 		
 	}
 	
@@ -80,4 +83,21 @@ public class ArrayListCollection {
 		return lt;
 	}
 	
+	public List<Integer> extractList() {
+		List <Integer> lt = new ArrayList<>();
+		lt = Arrays.asList(1,4,2,3,6,5,5,6,6,7,8,1);
+		List <Integer> newList = lt.subList(1, 5);
+		
+		return newList;
+	}
+	public Boolean compareList(List<String> l1, List<String> l2) {
+		boolean isSame = l1.equals(l2);
+		return isSame;
+	}
+
+	public List<String> swapElement(List<String> l1) {
+		Collections.swap(l1, 2, 4);
+		return l1;
+	
+}
 }
