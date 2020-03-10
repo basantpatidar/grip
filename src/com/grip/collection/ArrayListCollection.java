@@ -13,21 +13,29 @@ public class ArrayListCollection {
 		list = Arrays.asList("a","b","c","d");
 		System.out.println(list);
 		
+		List <String> l1 = new ArrayList<>();
+		l1 = Arrays.asList("1","2","5","3","4");
+//		List <String> l2 = new ArrayList<>();
+//		l2 = Arrays.asList("8","2","5","3","4","5");
+		List <String> l2 = Arrays.asList("8","2","5","3","4","5");
+		
 		ArrayListCollection AC = new ArrayListCollection();
 		System.out.println(AC.replaceElement());
 		System.out.println(AC.removeSpecificElement());
 		System.out.println(AC.searchElement("3"));
 		System.out.println(AC.sortList());
+		System.out.println(AC.copyList());
+		System.out.println(AC.shuffleList());
 		
 	}
 	
-	public List replaceElement() {
+	public List<String> replaceElement() {
 		List <String> lt = new ArrayList<>(Arrays.asList("1","2","3","4"));
 		lt.set(2, "5");
 		return lt;
 	}
 	
-	public List removeSpecificElement() {
+	public List<String> removeSpecificElement() {
 		List <String> lt = new ArrayList<>();
 //		lt = Arrays.asList("1","2","5","3","4");
 		lt.add("1");
@@ -43,11 +51,12 @@ public class ArrayListCollection {
 	public Boolean searchElement(String i) {
 		List <String> lt = new ArrayList<>();
 		lt = Arrays.asList("1","2","5","3","4");
+//		
 		boolean hasElement = lt.contains(i);
 		return hasElement;
 	}
 	
-	public List sortList() {
+	public List<Integer> sortList() {
 		List <Integer> lt = new ArrayList<>();
 		lt = Arrays.asList(1,4,2,3,5);
 //		lt.sort(Comparator.naturalOrder());
@@ -55,6 +64,20 @@ public class ArrayListCollection {
 		return lt;
 	}
 	
+	public List<Integer> copyList() {
+		List <Integer> lt = new ArrayList<>();
+		lt = Arrays.asList(1,4,2,3,6);
+		List <Integer> lt1 = new ArrayList<>();
+		lt1 = Arrays.asList(1,4,2,3,5);
+		Collections.copy(lt1, lt);
+		return lt1;
+	}
 	
+	public List<Integer> shuffleList() {
+		List <Integer> lt = new ArrayList<>();
+		lt = Arrays.asList(1,4,2,3,6,5,5,6,6,7,8,1);
+		Collections.shuffle(lt);
+		return lt;
+	}
 	
 }
