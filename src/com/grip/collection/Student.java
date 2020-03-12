@@ -25,6 +25,7 @@ public class Student {
 		this.lname = lname;
 	}
 	
+	//Printing all
 	public void printAllDetails() {
 		Student st = new Student(); 
 		System.out.println(st.name + " " + st.lname +" "+ st.rollNumber);
