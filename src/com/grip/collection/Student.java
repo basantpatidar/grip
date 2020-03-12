@@ -24,4 +24,9 @@ public class Student {
 	public void setLname(String lname) {
 		this.lname = lname;
 	}
+	
+	public void printAllDetails() {
+		Student st = new Student(); 
+		System.out.println(st.name + " " + st.lname +" "+ st.rollNumber);
+	}
 }
