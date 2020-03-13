@@ -1,6 +1,8 @@
 package com.grip.collection;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Colors {
 
@@ -20,5 +22,24 @@ public class Colors {
 		ex.append("is ");
 		ex.append("append.");
 		System.out.println(ex);
+		
+		
+		Map <String, String> map = new HashMap <String, String>();
+		
+		map.put("1", "Blue");
+		map.put("2", "Black");
+		map.put("3", "Red");
+		map.put("4", "Green");
+		
+
+		
 		}
+	
+	
+	
+//	Map< String,Integer> hm =  
+//            new HashMap< String,Integer>(); 
+//hm.put("a", new Integer(100));
+	
+	
 }
