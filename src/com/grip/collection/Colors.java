@@ -26,6 +26,8 @@ public class Colors {
 		
 		Map <String, String> map = new HashMap <String, String>();
 		
+		System.out.println(map);
+		
 		map.put("1", "Blue");
 		map.put("2", "Black");
 		map.put("3", "Red");
