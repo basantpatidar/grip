@@ -16,6 +16,7 @@ public class FirstPlaceListInsert {
 		lt.add(0, "First Index");
 		
 		System.out.println(lt);
+		//checking git connectivity?
 	}
 }
 
