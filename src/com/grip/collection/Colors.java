@@ -33,9 +33,11 @@ public class Colors {
 		map.put("2", "Black");
 		map.put("3", "Red");
 		map.put("4", "Green");
+		System.out.println(map);
 		}	
+	
 	
 //	Map< String,Integer> hm =  
 //            new HashMap< String,Integer>(); 
-//hm.put("a", new Integer(100));
+//		hm.put("a", new Integer(100));
 }
