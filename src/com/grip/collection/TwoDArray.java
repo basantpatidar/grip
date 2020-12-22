@@ -53,7 +53,13 @@ public class TwoDArray {
 			 
 			      System.out.println("total of the matrices:-");
 			 
-
+			      for ( c = 0 ; c < m ; c++ )
+			      {
+			         for ( d = 0 ; d < n ; d++ )
+			            System.out.print(total[c][d]+"\t");
+			 
+			         System.out.println();
+			      }
 			   }
 			}
 }
